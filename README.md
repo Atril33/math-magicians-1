@@ -4,7 +4,7 @@
 
   <br/>
 
-  <h3><b>To do list</b></h3>
+  <h1><b>MATH MAGICIANS</b></h1>
 
 </div>
 
