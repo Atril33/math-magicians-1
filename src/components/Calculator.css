@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 2rem;
+}
+
+html {
+  font-size: calc(15px + 0.390625vw);
+}
+
+body {
+  background-color: #222;
+}
+
+.calculator {
+  margin: 3rem auto;
+  width: 75%;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.row * {
+  width: 25%;
+  padding: 0.75rem;
+}
+
+.filled-btn {
+  background-color: rgb(255, 187, 1);
+}
+
+.two-span-btn {
+  width: 50%;
+}
+
+.screen {
+  width: 100%;
+  text-align: right;
+  padding: 1rem;
+  color: #fff;
+  background-color: #4b4b4b;
+}
