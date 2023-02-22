@@ -43,13 +43,14 @@ This is a react app for fans of mathematics.
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> **HTML**, **CSS**, **Javascript** and **react** are used to implement this web app
+ - **HTML** 
+ - **CSS**
+ - **Javascript**
+ - **React**
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
 
 - **[create react app]**
 - **[set up linters]**
@@ -125,8 +126,6 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
 - [ ] **[Components]**
 - [ ] **[Events]**
 - [ ] **[Refactor with hooks]**
@@ -149,9 +148,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project please give it a **STAR**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,8 +157,8 @@ If you like this project...
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank:
-> Microverse
-> My standup team
+- Microverse
+- My standup team
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
