@@ -43,10 +43,10 @@ This is a react app for fans of mathematics.
 
 ### Tech Stack <a name="tech-stack"></a>
 
- - **HTML** 
- - **CSS**
- - **Javascript**
- - **React**
+- **HTML**
+- **CSS**
+- **Javascript**
+- **React**
 
 <!-- Features -->
 
@@ -148,7 +148,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please give it a **STAR**
+If you like this project give it a **STAR**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
