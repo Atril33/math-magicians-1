@@ -1,12 +1,10 @@
-/* eslint-disable import/no-extraneous-dependencies */
 import PropTypes from 'prop-types';
-import React from 'react';
 
 function Button(props) {
-  const { label, className } = props;
+  const { label, className, onClick } = props;
 
   return (
-    <button type="button" className={className}>
+    <button type="button" className={className} onClick={onClick}>
       {label}
     </button>
   );
@@ -15,10 +13,12 @@ function Button(props) {
 Button.propTypes = {
   label: PropTypes.string.isRequired,
   className: PropTypes.string,
+  onClick: PropTypes.func,
 };
 
 Button.defaultProps = {
   className: 'regular-btn',
+  onClick: () => {},
 };
 
 export default Button;
