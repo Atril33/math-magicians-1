@@ -3,19 +3,16 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 2rem;
-}
-
-html {
-  font-size: calc(15px + 0.390625vw);
-}
-
-body {
-  background-color: #222;
+  border-color: #fff;
 }
 
 .calculator {
   margin: 3rem auto;
   width: 75%;
+}
+
+h1 {
+  color: black;
 }
 
 .row {
@@ -30,7 +27,7 @@ body {
 }
 
 .filled-btn {
-  background-color: rgb(255, 187, 1);
+  background-color: #A437DB;
 }
 
 .two-span-btn {

@@ -1,0 +1,36 @@
+.wrapper {
+  background-image: url(../assets/images/bg-math.jpg);
+}
+
+article {
+  padding: 2rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+h1,
+p {
+  padding: 1rem;
+  color: whitesmoke;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    background-size: cover;
+    background-position: bottom;
+  }
+
+  article {
+    width: 65%;
+    padding-right: 3rem;
+  }
+}
+
+@media screen and (max-width:385px) {
+  h1 {
+    text-align: center;
+  }
+}

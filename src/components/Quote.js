@@ -1,7 +1,5 @@
-const Quote = () => {
-  return (
-    <p>Some quote here!!!!</p>
-  );
-};
+const Quote = () => (
+  <p>Some quote here!!!!</p>
+);
 
 export default Quote;
