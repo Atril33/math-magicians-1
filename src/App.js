@@ -1,6 +1,7 @@
 import { Route, Routes, NavLink } from 'react-router-dom';
 import Homepage from './components/Homepage';
 import Calculator from './components/Calculator';
+import Logo from './components/Logo';
 
 const links = [
   { path: '/', text: 'Home' },
@@ -11,6 +12,7 @@ const links = [
 function App() {
   return (
     <>
+      <Logo />
       <nav className="navbar">
         <ul>
           {links.map((link) => (
