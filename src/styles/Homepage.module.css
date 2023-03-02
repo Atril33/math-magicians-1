@@ -4,9 +4,10 @@
 
 article {
   padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.842);
 }
 
-p {
+article p {
   font-size: 1rem;
   line-height: 1.5;
 }
@@ -14,7 +15,7 @@ p {
 h1,
 p {
   padding: 1rem;
-  color: whitesmoke;
+  color: #A437DB;
 }
 
 @media screen and (min-width: 768px) {
@@ -24,8 +25,11 @@ p {
   }
 
   article {
-    width: 65%;
-    padding-right: 3rem;
+    width: 100%;
+  }
+
+  h1, p {
+    width: 50%;
   }
 }
 

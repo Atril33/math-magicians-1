@@ -38,7 +38,7 @@ const Calculator = () => {
   };
 
   return (
-    <div>
+    <div className={styles.wrapper}>
       <h1>Let&apos;s do some maths!</h1>
       <div className={styles.calculator}>
         <Screen value={screenValue} onValueChange={setScreenValue} className={styles.screen} />

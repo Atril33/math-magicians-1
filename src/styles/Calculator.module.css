@@ -6,6 +6,12 @@
   border-color: #fff;
 }
 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .calculator {
   margin: 3rem auto;
   width: 75%;
@@ -40,4 +46,15 @@ h1 {
   padding: 1rem;
   color: #fff;
   background-color: #4b4b4b;
+}
+
+@media screen and (min-width:768px) {
+  .wrapper {
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  .calculator {
+    width: 40%;
+  }
 }
