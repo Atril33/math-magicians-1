@@ -5,16 +5,17 @@ const Homepage = () => (
     <article>
       <h1>Welcome to our page!</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Sollicitudin tempor
-        id eu nisl nunc mi ipsum faucibus. Egestas diam in arcu cursus euismod
-        quis viverra nibh cras.
+        This website is a Single Page Application implemented with React. It is
+        dedicated to all fans of Mathematics. So far
+        <em> calculator </em>
+        and
+        <em> quotes </em>
+        are the current features of our web application. However, we will plan
+        to add more cool features in the future.
       </p>
       <p>
         Vel fringilla est ullamcorper eget nulla. Sit amet porttitor eget dolor
-        morbi non arcu. Elementum eu facilisis sed odio morbi quis commodo odio.
-        Non tellus orci ac auctor augue mauris. Accumsan lacus vel facilisis
-        volutpat est velit. Aliquam purus sit amet luctus.
+        morbi non arcu.
       </p>
     </article>
   </div>
