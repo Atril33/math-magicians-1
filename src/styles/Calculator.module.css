@@ -33,7 +33,7 @@ h1 {
 }
 
 .filled-btn {
-  background-color: #A437DB;
+  background-color: #a437db;
 }
 
 .two-span-btn {
@@ -48,7 +48,7 @@ h1 {
   background-color: #4b4b4b;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   .wrapper {
     flex-direction: row;
     align-items: baseline;

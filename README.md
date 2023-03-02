@@ -4,7 +4,7 @@
 
   <br/>
 
-  <h1><b>MATH MAGICIANS</b></h1>
+  <h1><b>MATHICIANS</b></h1>
 
 </div>
 
@@ -43,9 +43,6 @@ This is a react app for fans of mathematics.
 
 ### Tech Stack <a name="tech-stack"></a>
 
-- **HTML**
-- **CSS**
-- **Javascript**
 - **React**
 
 <!-- Features -->
@@ -54,6 +51,12 @@ This is a react app for fans of mathematics.
 
 - **[create react app]**
 - **[set up linters]**
+- **[Components]**
+- **[Events]**
+- **[Refactor with hooks]**
+- **[Route with React Route]**
+- **[Styling]**
+- **[Full website]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,10 +129,6 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Components]**
-- [ ] **[Events]**
-- [ ] **[Refactor with hooks]**
-- [ ] **[Full website]**
 - [ ] **[Tests]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

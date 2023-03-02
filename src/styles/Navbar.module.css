@@ -1,4 +1,4 @@
-.navbar ul{
+.navbar ul {
   display: flex;
   list-style: none;
   flex-wrap: wrap;
@@ -12,6 +12,6 @@
 .linkItem {
   font-size: 1.115rem;
   text-decoration: none;
-  color: #A437DB;
+  color: #a437db;
   cursor: pointer;
 }

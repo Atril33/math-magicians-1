@@ -7,7 +7,7 @@ article {
   background-color: rgba(255, 255, 255, 0.842);
 }
 
-article p {
+p {
   font-size: 1rem;
   line-height: 1.5;
 }
@@ -15,7 +15,7 @@ article p {
 h1,
 p {
   padding: 1rem;
-  color: #A437DB;
+  color: #a437db;
 }
 
 @media screen and (min-width: 768px) {
@@ -28,12 +28,13 @@ p {
     width: 100%;
   }
 
-  h1, p {
+  h1,
+  p {
     width: 50%;
   }
 }
 
-@media screen and (max-width:385px) {
+@media screen and (max-width: 385px) {
   h1 {
     text-align: center;
   }
