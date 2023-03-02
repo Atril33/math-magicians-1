@@ -3,19 +3,22 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 2rem;
+  border-color: #fff;
 }
 
-html {
-  font-size: calc(15px + 0.390625vw);
-}
-
-body {
-  background-color: #222;
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .calculator {
   margin: 3rem auto;
   width: 75%;
+}
+
+.wrapper h1 {
+  padding: 3rem;
 }
 
 .row {
@@ -30,7 +33,7 @@ body {
 }
 
 .filled-btn {
-  background-color: rgb(255, 187, 1);
+  background-color: #a437db;
 }
 
 .two-span-btn {
@@ -43,4 +46,15 @@ body {
   padding: 1rem;
   color: #fff;
   background-color: #4b4b4b;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  .calculator {
+    width: 40%;
+  }
 }

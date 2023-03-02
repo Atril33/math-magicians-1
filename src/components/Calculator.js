@@ -1,6 +1,6 @@
 /* eslint-disable react/no-array-index-key */
 import React, { useState } from 'react';
-import './Calculator.css';
+import styles from '../styles/Calculator.module.css';
 import Button from './Button';
 import Screen from './Screen';
 import calculate from '../logic/calculate';
@@ -30,28 +30,31 @@ const Calculator = () => {
 
   const getButtonClassName = (label) => {
     if (label === '÷' || label === 'x' || label === '-' || label === '+') {
-      return 'filled-btn';
+      return styles['filled-btn'];
     } if (label === '0') {
-      return 'two-span-btn';
+      return styles['two-span-btn'];
     }
     return '';
   };
 
   return (
-    <div className="calculator">
-      <Screen value={screenValue} onValueChange={setScreenValue} />
-      {buttonLabels.map((row, index) => (
-        <div key={index} className="row">
-          {row.map((label) => (
-            <Button
-              key={label}
-              label={label}
-              onClick={handleCalc}
-              className={getButtonClassName(label)}
-            />
-          ))}
-        </div>
-      ))}
+    <div className={styles.wrapper}>
+      <h1>Let&apos;s do some maths!</h1>
+      <div className={styles.calculator}>
+        <Screen value={screenValue} onValueChange={setScreenValue} className={styles.screen} />
+        {buttonLabels.map((row, index) => (
+          <div key={index} className={styles.row}>
+            {row.map((label) => (
+              <Button
+                key={label}
+                label={label}
+                onClick={handleCalc}
+                className={getButtonClassName(label)}
+              />
+            ))}
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

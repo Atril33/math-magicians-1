@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import styles from '../styles/Calculator.module.css';
 
 const Screen = ({ value, onValueChange }) => {
   const handleChange = (e) => {
@@ -6,7 +7,7 @@ const Screen = ({ value, onValueChange }) => {
   };
 
   return (
-    <input type="text" value={value} className="screen" onChange={handleChange} />
+    <input type="text" value={value} onChange={handleChange} className={styles.screen} />
   );
 };
 
