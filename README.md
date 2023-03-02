@@ -64,7 +64,7 @@ This is a react app for fans of mathematics.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](#)
+- [Live Demo Link not added yet](#)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -158,14 +158,6 @@ If you like this project give it a **STAR**
 I would like to thank:
 - Microverse
 - My standup team
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> No Question yet
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
