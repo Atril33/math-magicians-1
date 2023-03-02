@@ -17,8 +17,8 @@
   width: 75%;
 }
 
-h1 {
-  color: black;
+.wrapper h1 {
+  padding: 3rem;
 }
 
 .row {
