@@ -5,7 +5,7 @@
   margin: 0 3rem;
 }
 
-@media screen and (max-width: 385px) {
+@media screen and (max-width: 555px) {
   .header {
     flex-direction: column;
   }
