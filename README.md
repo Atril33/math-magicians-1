@@ -64,7 +64,7 @@ This is a react app for fans of mathematics.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link not added yet](#)
+- [Live Demo Link](https://math-magicians-5scc.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
